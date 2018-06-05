@@ -10,5 +10,8 @@
             </argument>
         </arguments>
     </type>
-
+	<preference for="Magento\sales\order\grid" type="MagePrashant\DeleteOrder\Block\Adminhtml\Sales\Order\Grid" />
+	<type name="Magento\Sales\Block\Adminhtml\Order\View">
+		<plugin name="adddeleteButton" type="MagePrashant\DeleteOrder\Block\Adminhtml\Sales\Order\Views"/>
+	</type>	
 </config>
